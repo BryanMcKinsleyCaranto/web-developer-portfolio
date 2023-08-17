@@ -50,14 +50,15 @@
 	<!-- End of Navbar -->
 
 	<!-- Main Content Start -->
-	<div class="text-center bg-secondary d-flex flex-row justify-content-center align-items-center p-5" >
+
+	<div class="text-center bg-secondary d-flex flex-row justify-content-center align-items-center pt-5" >
 
 		<!-- Profile Section Start -->
-		<div class="container-fluid text-dark min-vh-100 p-3 p-md-5 bg-floralwhite" id="landing">						
+		<div class="container-fluid text-dark  p-3 p-md-5 bg-floralwhite" id="landing">						
 			<h1>Bryan McKinsley D. Caranto</h1>
 			<h3>Full-Stack Web Developer</h3>
 			<a href="#" data-toggle="modal" data-target="#exampleModal">
-				<img src="./images/bryan.jpg " class="img-fluid rounded-circle px-3 py-5" width="250em" alt="Image" >
+				<img src="./images/bryanimage.jpg " class="img-fluid rounded-circle px-3 py-5" width="250em" alt="Image" >
 			</a>
 			<!-- Modal -->
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -65,7 +66,7 @@
 			    <div class="modal-content">
 			      <!-- Content of the modal -->
 			      <div class="modal-body">
-			        <img src="./images/bryan.jpg" alt="Image" class="img-fluid">
+			        <img src="./images/bryanimage.jpg" alt="Image" class="img-fluid">
 			      </div>
 			    </div>
 			  </div>
@@ -83,6 +84,16 @@
 			  </div>
 			</div>
 			<!-- End of Modal -->
+			<div class="modal fade" id="e-commerce-fullstack" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <!-- Content of the modal -->
+			      <div class="modal-body">
+			        <img src="./images/e-commerce-fullstack.jpg" alt="Image" class="img-fluid" >
+			      </div>
+			    </div>
+			  </div>
+			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="send-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			  <div class="modal-dialog">
@@ -111,6 +122,7 @@
 			  </div>
 
 			</div>
+
 			<!-- End of modal -->
 
 
@@ -119,7 +131,7 @@
 
 
 					<p>
-						Hi there! My name is Bryan McKinsley Caranto and I am a graduate of Bachelor of Science in information technology at University of Perpetual Help System DALTA. My goal is to satisfy my clients in creating their ideal websites. I currently have knowledge on HTML, CSS, Git and Bootstrap and I am pursuing to learn more markup and programming languages in the future.
+						Hi there! My name is Bryan McKinsley Caranto and I am a graduate of Bachelor of Science in information technology at University of Perpetual Help System DALTA. My goal is to satisfy my clients in creating their ideal websites. I currently have knowledge on HTML, JavaScript CSS and git and I am pursuing to learn more markup and programming languages in the future. My current stack is MERN (MongoDB, Express, React, Node). 
 
 					</p>
 				</div>
@@ -133,7 +145,7 @@
 					<!-- Project Section Container Start -->
 					<div class="p-md-5 d-lg-flex justify-content-center ">
 						<!-- Backend Card Start -->
-						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mx-lg-5 " data-aos="fade-right">
+						<div class="card bg-dark col-xl-4 mb-5 p-5 mb-xl-0 mx-lg-5 " data-aos="fade-right">
 						  <div class="card-body text-white " >
 						  	<a href="#" data-toggle="modal" data-target="#e-commerce">
 						  	<img src="./images/e-commerce.jpg" class="img-fluid">
@@ -141,8 +153,7 @@
 						    <h2 class="card-title mt-3">Backend</h1>
 						    <h4 class="card-subtitle mb-2 text-mut">E-commerce</h4>
 						    <p class="card-text">
-						    	This is a back-end web development project. The website contain specific pages such as home page, catalog, cart and orders. 
-						    </p>
+						    	This is the backend of my e-commerce project. In this project, I have used mongoDB as my open source database management. Other tools that I have used is JavaScript, node.js and express.js. In this project, a registration feature is available and there are two types of users which is the admin and regular user. I was able to separate the access of the two users by using the jsonwebtoken authentication. I also used Models, Controllers and Routes in order to manage my project effectively. In this project, the regular user should be able to login, browse available products, create an order or add the selected product to their cart and view order history. As for the admin, they are able to change another user to an admin, change the product information and view all order history. 
 						   
 						  </div>
 						</div>
@@ -151,15 +162,15 @@
 						
 
 						<!-- Full-stack Card Start -->
-						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mx-xl-5 mx-lg-5 " data-aos="fade-left">
+						<div class="card bg-dark col-xl-4 mb-5 p-5 mb-xl-0 mx-xl-5 mx-lg-5 " data-aos="fade-left">
 						  <div class="card-body text-white">
-						  	<a href="#" data-toggle="modal" data-target="#e-commerce">
-						  	<img src="./images/e-commerce.jpg" class="img-fluid">
+						  	<a href="#" data-toggle="modal" data-target="#e-commerce-fullstack">
+						  	<img src="./images/e-commerce-fullstack.jpg" class="img-fluid">
 						  	</a>
 						    <h2 class="card-title mt-3">Full-stack</h1>
 						    <h4 class="card-subtitle mb-2 text-light">E-commerce API</h4>
 						    <p class="card-text">
-						    	This is a full-stack web development project. e website contain specific pages such as home page, catalog, cart and orders. All of the buttons and links are fully functioning.
+						    	This is the full-stack of my e-commerce project. The tools that was used for this project is React.js to make the display more dynamic. In this project, the user should be able to interact with the application by clicking the buttons and links accordingly. This project was deployed via this link https://capstone3-sandy-nine.vercel.app/. 
 						    </p>
 						    
 						  </div>
@@ -188,7 +199,7 @@
 							        <img width="150" src="images/logo-nodejs.png"/class="img-fluid">
 							        <img width="150" src="images/logo-expressjs.png"/class="img-fluid">
 							        <img width="150" src="images/logo-react.png"/class="img-fluid">
-							        <img width="150" src="images/logo-heroku.png"/class="img-fluid">
+							        
 							    </div>
 							    <div class="d-md-flex justify-content-center" >
 							    	<img width="150" src="images/logo-html5.png"/class="img-fluid">
@@ -243,15 +254,15 @@
 		</div>					
 	</div>
 	
-		
+		</div>
 
-		
+		</div>
 	<!-- start of footer -->
 
 
 		<footer class="p-2 d-flex justify-content-center bg-dark text-white fixed-bottom">
 		 	 	<div class ="mx-2">
-		 		  <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+		 		  <a href="https://www.facebook.com/BryMcKinsley/" target="_blank"> <i class="fa fa-facebook"></i></a>
 		 		</div>
 		 		<div>|</div>
 		 		<div class="mx-2">
